@@ -1,3 +1,9 @@
-pull and run it!
+*** SSH Terminal ***
 
+A docker container ready made for issuing the ssh command. Comes pre loaded with basic busybox utils
+
+** Run It **
+
+```
 docker run -it --rm davidlinuxacademy/sshterm
+```
