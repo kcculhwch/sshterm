@@ -17,6 +17,7 @@ RUN mkdir /busybox-1.29.3/sysbin && cd /busybox-1.29.3 && make CONFIG_PREFIX=./s
 FROM scratch
 COPY --from=compiler /busybox-1.29.3/sysbin /
 COPY --from=compiler /dropbear/dbclient /bin/ssh
+RUN mkdir /root
 RUN echo "cat /etc/motd && ssh -h" > /etc/profile
 RUN echo "SSH Terminal" > /etc/motd
 RUN echo "root:x:0:0:root:/root:/bin/bash" > /etc/passwd
