@@ -1,0 +1,11 @@
+
+--------------Paste Key Above---------------
+In order to add a pem key to your ssh client. 
+
+Press i to insert, then paste your key above.
+
+Prese 'Esc' then :wq to save your file.
+
+Your key will be saved to the default key location
+- .ssh/id_dropbear
+- it will be automatically used when you ssh

@@ -1,0 +1,12 @@
+Welcome to LinuxAcademy's SSH Instant Terminal
+
+You can use this terminal to ssh to other systems.
+- Just run 'ssh USERNAME@HOSTNAME'
+
+You can add a pem key too. 
+- Just run 'add_key' and follow the instructions.
+
+
+
+Advanced SSH options:
+
