@@ -1,5 +1,7 @@
 #!/bin/bash
 
+
+# based on https://github.com/andrew-d/static-binaries/blob/master/nano/build.sh
 set -e
 set -o pipefail
 set -x

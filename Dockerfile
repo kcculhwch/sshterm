@@ -14,7 +14,8 @@ COPY bbox /busybox-1.29.3/.config
 RUN cd /busybox-1.29.3 && make
 RUN mkdir /busybox-1.29.3/sysbin && cd /busybox-1.29.3 && make CONFIG_PREFIX=./sysbin install
 
-
+# nano builder based on
+# https://github.com/andrew-d/static-binaries/blob/master/nano/Dockerfile
 FROM debian:jessie as nano
 MAINTAINER Andrew Dunham <andrew@du.nham.ca>
 
